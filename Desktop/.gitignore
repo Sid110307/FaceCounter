@@ -1,0 +1,9 @@
+# IDE related
+.vscode/
+.idea/
+
+# macOS shit
+.DS_Store
+
+# Python related
+__pycache__/
