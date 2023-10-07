@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "FaceCounter",
+    "slug": "FaceCounter",
+    "description": "A simple app to count faces from the camera",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202020"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sid.FaceCounter",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to detect faces."
+      },
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#202020"
+      },
+      "package": "com.sid.FaceCounter",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3f91a729-84b5-45b8-be9c-85b439218577"
+      }
+    }
+  }
+}
